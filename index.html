@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DogRoutine — Privacy Policy</title>
+<meta name="description" content="DogRoutine privacy policy. Local-first dog care app. Your data stays on your device.">
+<style>
+:root {
+  --bg: #0A0D14;
+  --bg-elev: #141822;
+  --amber: #F5A524;
+  --amber-soft: #FFC875;
+  --amber-glow: rgba(245, 165, 36, 0.18);
+  --text: #E8ECF3;
+  --text-muted: #9CA3AF;
+  --border: rgba(245, 165, 36, 0.14);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  min-height: 100vh;
+  padding: 56px 24px 72px;
+  background-image: radial-gradient(ellipse 80% 50% at top, var(--amber-glow) 0%, transparent 60%);
+}
+.container { max-width: 680px; margin: 0 auto; }
+.hero { text-align: center; margin-bottom: 48px; }
+.mascot {
+  font-size: 64px;
+  margin-bottom: 16px;
+  filter: drop-shadow(0 0 24px var(--amber-glow));
+  display: inline-block;
+  animation: breath 3.5s ease-in-out infinite;
+}
+@keyframes breath {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.04); }
+}
+h1 {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #FFFFFF 0%, var(--amber-soft) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.subtitle { color: var(--text-muted); font-size: 15px; letter-spacing: 0.01em; }
+.section {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 28px;
+  margin-bottom: 18px;
+  transition: border-color 0.2s ease;
+}
+.section:hover { border-color: rgba(245, 165, 36, 0.28); }
+.section h2 {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--amber);
+  margin-bottom: 12px;
+  letter-spacing: -0.01em;
+}
+.section p { color: var(--text); font-size: 15px; }
+.section p + p { margin-top: 12px; }
+.section ul { margin-top: 10px; padding-left: 20px; }
+.section ul li { margin-bottom: 6px; font-size: 15px; }
+.muted { color: var(--text-muted); font-size: 14px; }
+strong { color: var(--amber-soft); font-weight: 600; }
+a { color: var(--amber); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.15s ease; }
+a:hover { border-bottom-color: var(--amber); }
+.footer {
+  text-align: center;
+  margin-top: 48px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+.footer-links {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+@media (max-width: 600px) {
+  body { padding: 36px 16px 56px; }
+  h1 { font-size: 26px; }
+  .section { padding: 22px; border-radius: 16px; }
+  .mascot { font-size: 54px; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <header class="hero">
+    <div class="mascot">🐕</div>
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">DogRoutine · Last updated April 20, 2026</p>
+  </header>
+
+  <section class="section">
+    <h2>Overview</h2>
+    <p>DogRoutine is a dog care routine tracker. Your privacy matters to us. This policy explains how your data is handled.</p>
+  </section>
+
+  <section class="section">
+    <h2>Data Collection</h2>
+    <p>DogRoutine does <strong>not</strong> collect, store, or transmit personal data to our servers. All data — including dog profiles, routines, photos, and settings — is stored <strong>locally on your device</strong> using Apple's SwiftData framework.</p>
+    <p class="muted">If you delete the app, your data is removed with it. There is no cloud backup and no account system.</p>
+  </section>
+
+  <section class="section">
+    <h2>Advertising (Free Tier)</h2>
+    <p>The free version of DogRoutine displays banner ads via <strong>Google AdMob</strong>. AdMob may collect:</p>
+    <ul>
+      <li>Advertising identifier (IDFA, only if you allow App Tracking)</li>
+      <li>Approximate location derived from your IP address</li>
+      <li>Device type, operating system, language, and app version</li>
+    </ul>
+    <p>This data is used by Google to serve relevant ads. You can disable personalized advertising from <em>iOS Settings → Privacy &amp; Security → Apple Advertising</em>, or limit tracking via <em>Settings → Privacy &amp; Security → Tracking</em>. For full details, see <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
+    <p class="muted">Premium subscribers see no ads, and no AdMob data is collected from them.</p>
+  </section>
+
+  <section class="section">
+    <h2>Subscriptions</h2>
+    <p>Premium in-app purchases are processed by <strong>Apple</strong> via the App Store. Subscription status is managed by <strong>RevenueCat</strong>, which receives an anonymous user identifier and entitlement status only — no personal information is shared.</p>
+    <p class="muted">You can manage or cancel a subscription anytime from <em>iOS Settings → Apple ID → Subscriptions</em>.</p>
+  </section>
+
+  <section class="section">
+    <h2>Notifications</h2>
+    <p>DogRoutine uses local notifications to remind you of upcoming routines. Notifications are scheduled entirely on your device. No notification content is sent to any server.</p>
+  </section>
+
+  <section class="section">
+    <h2>Photos</h2>
+    <p>If you add a photo to your dog's profile, it is stored locally on your device only. Photos are never uploaded, shared, or transmitted.</p>
+  </section>
+
+  <section class="section">
+    <h2>Children's Privacy</h2>
+    <p>DogRoutine is not directed at children under 13 and does not knowingly collect data from them.</p>
+  </section>
+
+  <section class="section">
+    <h2>Changes to This Policy</h2>
+    <p>We may update this policy from time to time. Any changes will be reflected on this page with a new "Last updated" date.</p>
+  </section>
+
+  <section class="section">
+    <h2>Contact</h2>
+    <p>Questions about this policy? Reach us at <a href="mailto:onur.appdev@gmail.com">onur.appdev@gmail.com</a>.</p>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 DogRoutine</p>
+    <div class="footer-links">
+      <a href="https://onurappdev.github.io/dogroutine-terms/">Terms of Use</a>
+      <a href="https://onurappdev.github.io/dogroutine-support/">Support</a>
+    </div>
+  </footer>
+</main>
+</body>
+</html>
